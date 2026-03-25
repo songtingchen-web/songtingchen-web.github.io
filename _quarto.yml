@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Songting Chen's Website"
+  logo: songting_chen.png  # Ensure this file is in your folder
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: CV
+        href: CV.pdf
+    right:
+      - icon: github
+        href: https://github.com/songtingchen-web
+        aria-label: GitHub
+
+format:
+  html:
+    theme:
+      - cosmo
+    css: styles.css
+    toc: true
+
+
+
