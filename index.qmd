@@ -1,7 +1,25 @@
 ---
-title: "Songting Chen's Website"
+title: "Songting Chen"
+subtitle: "Accounting & Finance Student at DCU"
+image: songting_chen.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/songtingchen-web
+    - icon: file-earmark-pdf
+      text: Download CV
+      href: CV.pdf
 ---
 
-This is a Quarto website.
+## 👨‍💼 Personal Profile
+I am a final year Accounting and Finance student at Dublin City University (DCU). I am passionate about financial modeling and data analytics.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## 🎓 Education
+Dublin City University (DCU) | 2023 — 2026 
+B.A. in Accounting and Finance
+
+## 💼 Experience
+Ginzeng | Sales Assistant | 2024 — Present  
+KFC Dublin | Customer Server | 2022 — 2024

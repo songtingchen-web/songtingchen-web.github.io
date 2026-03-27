@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Songting Chen's Website"
+  title: "Songting Chen"
   navbar:
     logo: songting_chen.jpg
     left:
@@ -21,8 +21,5 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
-    toc: true
-
-
-
+    css: styles.css 
+    toc: false
