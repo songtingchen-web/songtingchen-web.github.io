@@ -1,33 +1,306 @@
+/* Sidebar Blue Gradient */
+#quarto-sidebar {
+    background: linear-gradient(180deg, #00b4db 0%, #0083b0 100%) !important;
+    padding-top: 20px;
+}
+
+/* White Sidebar Text */
+#quarto-sidebar a, .sidebar-item-text {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Horizontal line under sidebar items */
+.sidebar-item {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    margin-bottom: 10px;
+}
+
+/* Main Content Headings */
+h2 {
+    scroll-margin-top: 40px;
+    color: #0083b0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Highlight for Company names */
+strong {
+    color: #333;
+}
+.card {
+  transition: transform 0.3s;
+  background-color: #ffffff;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+}
+/* 1. Global Background: Blue-Green Gradient */
 body {
-  background: linear-gradient(135deg, #ffafbd 0%, #ffc3a0 100%) !important;
-  background-attachment: fixed !important;
-  color: #4a4a4a !important;
+  background: linear-gradient(135deg, #025091 0%, #00b9a9 100%) !important;
+  color: white !important; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#quarto-content, main, .about-contents, .about-entity {
-  color: #4a4a4a !important;
-}
-
-h1, h2, h3, h4 {
-  color: #d81b60 !important;
-}
-
-.navbar {
-  background-color: rgba(255, 255, 255, 0.4) !important;
-  border-bottom: none;
-}
-
-.navbar-title, .nav-link {
-  color: #d81b60 !important;
-}
-
-.about-links .btn {
-  background-color: #d81b60 !important;
+/* 2. Set all headings to white */
+h1, h2, h3, h4, h5 {
   color: white !important;
-  border: none;
 }
 
-.about-image {
-  border: 3px solid white;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+/* 3. Portfolio Container Styling */
+.portfolio-container {
+  padding: 40px 0;
+}
+
+/* Center the large icons */
+.portfolio-container .logo-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Glassmorphism Effect for content cards */
+.portfolio-container .content-col {
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px); 
+  border-radius: 15px; 
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for cards */
+.portfolio-container .content-col:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Control large logo size */
+.portfolio-container .project-logo {
+  width: auto;
+  max-width: 150px; 
+  height: auto;
+  opacity: 0.9; 
+}
+
+/* Space between projects */
+.portfolio-container .spacer {
+  height: 30px;
+}
+
+/* Responsive adjustment for mobile */
+@media (max-width: 768px) {
+  .portfolio-container .project-logo {
+    max-width: 80px; 
+    margin-bottom: 15px;
+  }
+}
+/* ========================================= */
+/* 1. Global Site Styling: Gradient & White Text */
+/* ========================================= */
+
+body {
+  /* Dynamic blue-to-green gradient matching image 13 */
+  background: linear-gradient(135deg, #025091 0%, #00b9a9 100%) !important;
+  color: white !important; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure all headings are white */
+h1, h2, h3, h4, h5 {
+  color: white !important;
+}
+
+/* Fix text and label colors for navigation/sidebar if they vanish */
+#quarto-sidebar, .sidebar-link, #quarto-header {
+    color: rgba(255,255,255,0.8) !important;
+}
+
+/* Adjust the colored skill badges from your previous design to pop on this background */
+#skills .badge {
+  color: white !important;
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+/* ========================================= */
+/* 2. Portfolio/Projects Section Special Styles */
+/* ========================================= */
+
+.portfolio-container {
+  padding: 40px 0;
+  max-width: 1200px; /* Center content nicely */
+  margin: 0 auto;
+}
+
+/* Left Column: Center the huge logo */
+.portfolio-container .logo-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Right Column: Premium "Glassmorphism" content card */
+.portfolio-container .content-col {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Frosted glass blur effect */
+  border-radius: 15px; 
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+/* Card interaction on hover: floats up and gets brighter */
+.portfolio-container .content-col:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Control the massive logo image size */
+.portfolio-container .project-logo {
+  width: auto;
+  max-width: 150px; /* Large size matching reference 13 */
+  height: auto;
+  opacity: 0.9; /* Slightly transparent to blend */
+}
+
+/* Define project spacing */
+.portfolio-container .spacer {
+  height: 30px;
+}
+
+/* ========================================= */
+/* 3. Mobile Optimization */
+/* ========================================= */
+
+@media (max-width: 768px) {
+  /* On mobile, stack logo above content and make it smaller */
+  .portfolio-container .project-logo {
+    max-width: 80px; 
+    margin-bottom: 15px;
+  }
+  .portfolio-container .content-col {
+    padding: 20px;
+  }
+}
+/* --- Optimized Project Logo Styles --- */
+.project-logo {
+    /* This makes all icons (Excel, University, Python) the same size */
+    width: 120px !important; 
+    height: auto;
+    /* This creates the nice white glow you liked */
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.4));
+    transition: transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-logo:hover {
+    transform: scale(1.1); /* Makes the logo pop when you hover */
+}
+
+/* --- Optimized Card Text --- */
+.content-col h3 {
+    margin-top: 0;
+    font-weight: 700;
+    color: #ffffff !important;
+    letter-spacing: 0.5px;
+    /* Adds a tiny shadow to the text to make it readable against the blur */
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.content-col p, .content-col ul {
+    color: rgba(255, 255, 255, 0.9) !important;
+    line-height: 1.6;
+}
+/* Experience Section Styling */
+.experience-container {
+    padding: 20px 0;
+}
+
+.experience-card {
+    background: rgba(255, 255, 255, 0.08) !important; /* Semi-transparent */
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.experience-card:hover {
+    transform: translateX(10px); /* Slides slightly to the right on hover */
+    background: rgba(255, 255, 255, 0.15) !important;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.experience-card h3 {
+    color: #ffffff !important;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.experience-card strong {
+    color: #00d1c1 !important; /* Matches your background green accent */
+    font-weight: 600;
+}
+
+.experience-card ul li {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 8px;
+}
+
+/* Spacer for vertical rhythm */
+.spacer {
+    height: 15px;
+}
+/* Styling for Option 1: Pills */
+.interest-pill {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px 25px;
+    border-radius: 50px; /* Pill shape */
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.interest-pill:hover {
+    background: rgba(0, 209, 193, 0.2); /* Faint green glow */
+    border-color: #00d1c1;
+    transform: scale(1.05);
+}
+
+/* Styling for Option 2: Feature Cards */
+.interest-card {
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    height: 100%;
+    transition: 0.3s ease;
+}
+
+.interest-card:hover {
+    background: rgba(255, 255, 255, 0.12) !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.interest-card h3 {
+    font-size: 1.1rem;
+    color: #00d1c1 !important; /* Green accent color */
+    margin-bottom: 8px;
 }

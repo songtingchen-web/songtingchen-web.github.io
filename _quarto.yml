@@ -4,22 +4,27 @@ project:
 
 website:
   title: "Songting Chen"
-  navbar:
+  sidebar:
+    style: "docked"
+    background: primary
     logo: songting_chen.jpg
-    left:
-      - text: Home
-        href: index.qmd
-      - text: About
-        href: about.qmd
-      - text: CV
-        href: CV.pdf
-    right:
-      - icon: github
-        href: https://github.com/songtingchen-web
-        aria-label: GitHub
+    contents:
+      - text: "INTRODUCTION"
+        href: index.qmd#intro
+      - text: "EDUCATION"
+        href: index.qmd#education
+      - text: "IT SKILLS"
+        href: index.qmd#skills
+      - text: "EXPERIENCE"
+        href: index.qmd#experience
+      - text: "PROJECTS"
+        href: index.qmd#projects
+      - text: "INTERESTS"
+        href: index.qmd#interests
 
 format:
   html:
     theme: cosmo
-    css: styles.css 
+    css: styles.css
     toc: false
+    smooth-scroll: true

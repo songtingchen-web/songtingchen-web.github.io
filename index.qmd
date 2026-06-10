@@ -1,9 +1,8 @@
 ---
 title: "Songting Chen"
-subtitle: "Accounting & Finance Student at DCU"
 image: songting_chen.jpg
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: github
       text: Github
@@ -13,13 +12,155 @@ about:
       href: CV.pdf
 ---
 
-## 👨‍💼 Personal Profile
-I am a final year Accounting and Finance student at Dublin City University (DCU). I am passionate about financial modeling and data analytics.
+## 👨‍💼 Personal Profile {#intro}
+I am a final-year **Accounting and Finance student at Dublin City University (DCU)**. I have gained practical experience in financial modeling, valuation, and business analysis through the **AmplifyME** simulation and the **DCU Data Analytics program**. I am currently building a website to showcase my projects and technical skills in Python, Power BI, and SQL. I am highly motivated and prepared to contribute to a dynamic financial or technological role.
 
-## 🎓 Education
-Dublin City University (DCU) | 2023 — 2026 
-B.A. in Accounting and Finance
+---
 
-## 💼 Experience
-Ginzeng | Sales Assistant | 2024 — Present  
-KFC Dublin | Customer Server | 2022 — 2024
+## 🎓 Education {#education}
+**Dublin City University (DCU)** | 2021 — Present  
+*B.A. in Accounting and Finance* **Relevant Modules:** Financial Reporting, Management Accounting, Corporate Finance, Auditing, Taxation, and Strategic Management.
+
+**Secondary Education:** Shengli No. 10 High School | 2018 — 2021  
+Subjects: Maths, Geography, English, Biology, History.
+
+---
+
+## 🛠️ IT & Technical Skills {#skills}
+
+::: {.d-flex .flex-wrap .gap-2}
+[Excel (VBA)]{.badge .bg-primary .rounded-pill style="padding: 10px 15px; font-size: 1.1em;"}
+[Accounting]{.badge .bg-success .rounded-pill style="padding: 10px 15px; font-size: 1.1em;"}
+[Python]{.badge .bg-info .text-dark .rounded-pill style="padding: 10px 15px; font-size: 1.1em;"}
+[Taxation]{.badge .bg-warning .text-dark .rounded-pill style="padding: 10px 15px; font-size: 1.1em;"}
+[Financial Modeling]{.badge .bg-danger .rounded-pill style="padding: 10px 15px; font-size: 1.1em;"}
+[SQL]{.badge .bg-secondary .rounded-pill style="padding: 10px 15px; font-size: 1.1em;"}
+[Power BI]{.badge .bg-dark .rounded-pill style="padding: 10px 15px; font-size: 1.1em;"}
+:::
+
+- **Financial Modeling:** Skilled in cash flow forecasting and budgeting.
+- **Data Analysis:** Proficient in **Python** (Pandas, Numpy), **SQL**, and **Power BI**.
+
+## 💼 Work Experience {#experience}
+
+::: {.grid .experience-container}
+
+::: {.g-col-12}
+::: {.card .experience-card}
+### **Ginzeng** | *Sales Assistant*
+**June 2024 — Present**
+
+- **Financial Integrity:** Maintain 100% accuracy in high-volume cash and digital financial transactions daily.
+- **Client Relations:** Provide professional, high-level communication to ensure premium customer service standards.
+- **Problem Solving:** Efficiently resolve customer inquiries and manage point-of-sale operations under pressure.
+:::
+:::
+
+::: {.g-col-12 .spacer}
+:::
+
+::: {.g-col-12}
+::: {.card .experience-card}
+### **KFC Dublin** | *Customer Server*
+**July 2022 — Jan 2024**
+
+- **Operational Efficiency:** Managed high-volume customer orders in a fast-paced environment while meeting strict KPIs.
+- **Quality Assurance:** Ensured rigorous adherence to hygiene and safety standards through meticulous attention to detail.
+- **Team Collaboration:** Coordinated with diverse team members to optimize service workflow during peak hours.
+:::
+:::
+
+::: {.g-col-12 .spacer}
+:::
+
+::: {.g-col-12}
+::: {.card .experience-card}
+### **McDonald's** | *Crew Member*
+**Feb 2022 — June 2022**
+
+- **Crisis Management:** Collaborated within a large-scale team to handle extreme peak-hour traffic and complex order processing.
+- **Adaptability:** Successfully rotated across multiple high-pressure stations, demonstrating versatility and rapid learning.
+- **Workflow Optimization:** Contributed to reducing wait times through proactive task management.
+:::
+:::
+
+:::
+
+## 🚀 Portfolio {#portfolio}
+
+::: {.grid .portfolio-container}
+
+::: {.g-col-12 .g-col-md-3 .logo-col}
+![](https://img.icons8.com/color/144/microsoft-excel-2019--v1.png){.project-logo}
+:::
+::: {.g-col-12 .g-col-md-9 .content-col}
+### **AmplifyME Simulation**
+*Banking & Asset Management*
+- Successfully executed market-making and sales-trading roles.
+- Developed comprehensive financial models to evaluate portfolio performance.
+:::
+
+::: {.g-col-12 .spacer}
+:::
+
+::: {.g-col-12 .g-col-md-3 .logo-col}
+![](https://img.icons8.com/fluency/144/university.png){.project-logo}
+:::
+::: {.g-col-12 .g-col-md-9 .content-col}
+### **Strategic Business Partner**
+*DCU Consulting Case Study Analysis*
+- Analyzed profitability drivers for a major poultry company.
+- Delivered a professional consulting proposal to stakeholders.
+:::
+
+::: {.g-col-12 .spacer}
+:::
+
+::: {.g-col-12 .g-col-md-3 .logo-col}
+![](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg){.project-logo}
+:::
+::: {.g-col-12 .g-col-md-9 .content-col}
+### **Tax Policy Analysis**
+*2024 Budget Simulation with Python*
+- Researched Budget impacts on diverse customer segments.
+- Utilized **Python** to analyze USC and income tax applications.
+:::
+
+:::
+## 🌍 Languages & Interests {#interests}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .interest-card}
+### 🗣️ Communication
+**English** (Fluent) & **Mandarin** (Native)
+*Professional bilingual proficiency for global environments.*
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .interest-card}
+### 🤖 AI & Finance
+**Programming**
+*Actively leveraging AI tools to optimize financial data analysis.*
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .interest-card}
+### 🌱 Sustainability
+**Agri-Tech**
+*Passionate about how technology improves global food security.*
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .interest-card}
+### 🏀 Team Sports
+**Basketball**
+*Developing leadership and resilience in competitive team settings.*
+:::
+:::
+
+:::
