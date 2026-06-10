@@ -7,11 +7,11 @@
     "text": "I am a final-year Accounting and Finance student at Dublin City University (DCU). I have gained practical experience in financial modeling, valuation, and business analysis through the AmplifyME simulation and the DCU Data Analytics program. I am currently building a website to showcase my projects and technical skills in Python, Power BI, and SQL. I am highly motivated and prepared to contribute to a dynamic financial or technological role."
   },
   {
-    "objectID": "index.html#personal-profile",
-    "href": "index.html#personal-profile",
+    "objectID": "index.html#intro",
+    "href": "index.html#intro",
     "title": "Songting Chen",
     "section": "",
-    "text": "I am a final year Accounting and Finance student at Dublin City University (DCU). I am passionate about financial modeling and data analytics."
+    "text": "I am a final-year Accounting and Finance student at Dublin City University (DCU). I have gained practical experience in financial modeling, valuation, and business analysis through the AmplifyME simulation and the DCU Data Analytics program. I am currently building a website to showcase my projects and technical skills in Python, Power BI, and SQL. I am highly motivated and prepared to contribute to a dynamic financial or technological role."
   },
   {
     "objectID": "index.html#education",
@@ -21,55 +21,6 @@
     "text": "🎓 Education\nDublin City University (DCU) | 2021 — Present\nB.A. in Accounting and Finance Relevant Modules: Financial Reporting, Management Accounting, Corporate Finance, Auditing, Taxation, and Strategic Management.\nSecondary Education: Shengli No. 10 High School | 2018 — 2021\nSubjects: Maths, Geography, English, Biology, History."
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Songting Chen",
-    "section": "💼 Work Experience",
-    "text": "💼 Work Experience\n\n\n\nGinzeng | Sales Assistant\nJune 2024 — Present\n\nFinancial Integrity: Maintain 100% accuracy in high-volume cash and digital financial transactions daily.\nClient Relations: Provide professional, high-level communication to ensure premium customer service standards.\nProblem Solving: Efficiently resolve customer inquiries and manage point-of-sale operations under pressure.\n\n\n\n\n\n\n\nKFC Dublin | Customer Server\nJuly 2022 — Jan 2024\n\nOperational Efficiency: Managed high-volume customer orders in a fast-paced environment while meeting strict KPIs.\nQuality Assurance: Ensured rigorous adherence to hygiene and safety standards through meticulous attention to detail.\nTeam Collaboration: Coordinated with diverse team members to optimize service workflow during peak hours.\n\n\n\n\n\n\n\nMcDonald’s | Crew Member\nFeb 2022 — June 2022\n\nCrisis Management: Collaborated within a large-scale team to handle extreme peak-hour traffic and complex order processing.\nAdaptability: Successfully rotated across multiple high-pressure stations, demonstrating versatility and rapid learning.\nWorkflow Optimization: Contributed to reducing wait times through proactive task management."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html#projects-interests",
-    "href": "index.html#projects-interests",
-    "title": "Songting Chen",
-    "section": " Projects & Interests",
-    "text": "Projects & Interests\n\nAmplifyME Simulation: Executed market-making and sales-trading roles.\nInterests: AI Programming, Sustainable Agriculture, Basketball."
-  },
-  {
-    "objectID": "index.html#introduction",
-    "href": "index.html#introduction",
-    "title": "Songting Chen",
-    "section": "",
-    "text": "I am a final year Accounting and Finance student at Dublin City University (DCU). I am passionate about financial modeling and data analytics."
-  },
-  {
-    "objectID": "index.html#work-experience",
-    "href": "index.html#work-experience",
-    "title": "Songting Chen",
-    "section": "Work Experience",
-    "text": "Work Experience\nGinzeng | Sales Assistant | 2024 — Present\nKFC Dublin | Customer Server | 2022 — 2024"
-  },
-  {
-    "objectID": "index.html#technical-skills",
-    "href": "index.html#technical-skills",
-    "title": "Songting Chen",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nAdvanced Excel & Financial Modeling\nPython (Pandas, Numpy)\nQuarto & Git"
-  },
-  {
-    "objectID": "index.html#intro",
-    "href": "index.html#intro",
-    "title": "Songting Chen",
-    "section": "",
-    "text": "I am a final-year Accounting and Finance student at Dublin City University (DCU). I have gained practical experience in financial modeling, valuation, and business analysis through the AmplifyME simulation and the DCU Data Analytics program. I am currently building a website to showcase my projects and technical skills in Python, Power BI, and SQL. I am highly motivated and prepared to contribute to a dynamic financial or technological role."
-  },
-  {
     "objectID": "index.html#skills",
     "href": "index.html#skills",
     "title": "Songting Chen",
@@ -77,11 +28,18 @@
     "text": "🛠️ IT & Technical Skills\n\nExcel (VBA) Accounting Python Taxation Financial Modeling SQL Power BI\n\n\nFinancial Modeling: Skilled in cash flow forecasting and budgeting.\nData Analysis: Proficient in Python (Pandas, Numpy), SQL, and Power BI."
   },
   {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
     "title": "Songting Chen",
-    "section": "🚀 Projects & Achievements",
-    "text": "🚀 Projects & Achievements"
+    "section": "💼 Work Experience",
+    "text": "💼 Work Experience\n\n\n\nGinzeng | Sales Assistant\nJune 2024 — Present\n\nFinancial Integrity: Maintain 100% accuracy in high-volume cash and digital financial transactions daily.\nClient Relations: Provide professional, high-level communication to ensure premium customer service standards.\nProblem Solving: Efficiently resolve customer inquiries and manage point-of-sale operations under pressure.\n\n\n\n\n\n\n\nKFC Dublin | Customer Server\nJuly 2022 — Jan 2024\n\nOperational Efficiency: Managed high-volume customer orders in a fast-paced environment while meeting strict KPIs.\nQuality Assurance: Ensured rigorous adherence to hygiene and safety standards through meticulous attention to detail.\nTeam Collaboration: Coordinated with diverse team members to optimize service workflow during peak hours.\n\n\n\n\n\n\n\nMcDonald’s | Crew Member\nFeb 2022 — June 2022\n\nCrisis Management: Collaborated within a large-scale team to handle extreme peak-hour traffic and complex order processing.\nAdaptability: Successfully rotated across multiple high-pressure stations, demonstrating versatility and rapid learning.\nWorkflow Optimization: Contributed to reducing wait times through proactive task management."
+  },
+  {
+    "objectID": "index.html#portfolio",
+    "href": "index.html#portfolio",
+    "title": "Songting Chen",
+    "section": "🚀 Portfolio",
+    "text": "🚀 Portfolio\n\n\n\n\n\nAmplifyME Simulation\nBanking & Asset Management - Successfully executed market-making and sales-trading roles. - Developed comprehensive financial models to evaluate portfolio performance.\n\n\n\n\n\n\n\nStrategic Business Partner\nDCU Consulting Case Study Analysis - Analyzed profitability drivers for a major poultry company. - Delivered a professional consulting proposal to stakeholders.\n\n\n\n\n\n\n\nTax Policy Analysis\n2024 Budget Simulation with Python - Researched Budget impacts on diverse customer segments. - Utilized Python to analyze USC and income tax applications."
   },
   {
     "objectID": "index.html#interests",
@@ -91,10 +49,10 @@
     "text": "🌍 Languages & Interests\n\n\n\n🗣️ Communication\nEnglish (Fluent) & Mandarin (Native) Professional bilingual proficiency for global environments.\n\n\n\n\n🤖 AI & Finance\nProgramming Actively leveraging AI tools to optimize financial data analysis.\n\n\n\n\n🌱 Sustainability\nAgri-Tech Passionate about how technology improves global food security.\n\n\n\n\n🏀 Team Sports\nBasketball Developing leadership and resilience in competitive team settings."
   },
   {
-    "objectID": "index.html#portfolio",
-    "href": "index.html#portfolio",
-    "title": "Songting Chen",
-    "section": "🚀 Portfolio",
-    "text": "🚀 Portfolio\n\n\n\n\n\nAmplifyME Simulation\nBanking & Asset Management - Successfully executed market-making and sales-trading roles. - Developed comprehensive financial models to evaluate portfolio performance.\n\n\n\n\n\n\n\nStrategic Business Partner\nDCU Consulting Case Study Analysis - Analyzed profitability drivers for a major poultry company. - Delivered a professional consulting proposal to stakeholders.\n\n\n\n\n\n\n\nTax Policy Analysis\n2024 Budget Simulation with Python - Researched Budget impacts on diverse customer segments. - Utilized Python to analyze USC and income tax applications."
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
